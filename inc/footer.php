@@ -54,7 +54,7 @@
                         <div class="brochure-wrap">
 
                             <a href="/brochure">
-                                <img src="https://s3-eu-west-1.amazonaws.com/originaltravel.assets.d3r.com/images/footer_brochure/319569-ot-brochure-2017.png" width="100" height="130" />                            </a>
+                                <img src="<?php echo base_url(); ?>img/319569-ot-brochure-2017.png" width="100" height="130" />                            </a>
 
                         </div>
 
@@ -287,8 +287,7 @@
             </p>
 
             <p class="credit">
-
-                &copy; 2017 <a href="/">Original Travel</a> | <a href="http://d3r.com/">Web Design</a> by D3R
+                <?php echo copyright();?>
             </p>
         </div>
     </div>
@@ -297,13 +296,13 @@
 
 <!--[if lte IE 9]></div><![endif]-->
 
-<script type="text/javascript" src="core/javascript/jquery.js?m=1493373756"></script>
-<!-- <script type="text/javascript" src="core/javascript/d3r.js?m=1493373756"></script> -->
-<script type="text/javascript" src="core/javascript/jquery.hammer.min.js?m=1493373756"></script>
-<!-- <script type="text/javascript" src="core/javascript/jquery.simplemodal.js?m=1493373756" ></script> -->
-<!-- <script type="text/javascript" src="core/javascript/svg4everybody.min.js?m=1493373763"></script> -->
-<script type="text/javascript" src="core/javascript/global.js?m=1493373763"></script>
-<!-- <script type="text/javascript" src="core/javascript/members.js?m=1493373763"></script> -->
+<script type="text/javascript" src="<?php echo base_url(); ?>core/javascript/jquery.js?m=1493373756"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>core/javascript/d3r.js?m=1493373756"></script> 
+<script type="text/javascript" src="<?php echo base_url(); ?>core/javascript/jquery.hammer.min.js?m=1493373756"></script>
+ <script type="text/javascript" src="<?php echo base_url(); ?>core/javascript/jquery.simplemodal.js?m=1493373756" ></script> 
+<script type="text/javascript" src="<?php echo base_url(); ?>core/javascript/svg4everybody.min.js?m=1493373763"></script> 
+<script type="text/javascript" src="<?php echo base_url(); ?>core/javascript/global.js?m=1493373763"></script>
+ <script type="text/javascript" src="<?php echo base_url(); ?>core/javascript/members.js?m=1493373763"></script>
 
 
 <script type="text/javascript">
@@ -316,7 +315,7 @@
 
 <!-- Google Tag Manager 
 
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WQQXZT"
+<noscript><iframe src="<?php echo base_url(); ?>//www.googletagmanager.com/ns.html?id=GTM-WQQXZT"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <script>(function (w, d, s, l, i) {
                 w[l] = w[l] || [];
@@ -349,19 +348,19 @@
 
 <!--
 
-<script type="text/javascript" src="core/javascript/conversion.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>core/javascript/conversion.js"></script>
 <noscript>
-    <div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1069786988/?value=0&amp;guid=ON&amp;script=0"/></div>
+    <div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="<?php echo base_url(); ?>//googleads.g.doubleclick.net/pagead/viewthroughconversion/1069786988/?value=0&amp;guid=ON&amp;script=0"/></div>
 </noscript>
 <script type="text/javascript">
     var axel = Math.random() + "";
     var a = axel * 10000000000000;
-    document.write('<iframe src="http://4671808.fls.doubleclick.net/activityi;src=4671808;type=ot;cat=mainh0;ord=176981505;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+    document.write('<iframe src="<?php echo base_url(); ?>http://4671808.fls.doubleclick.net/activityi;src=4671808;type=ot;cat=mainh0;ord=176981505;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
 </script>
 
 
 <noscript>
-    <iframe src="http://4671808.fls.doubleclick.net/activityi;src=4671808;type=ot;cat=mainh0;ord=176981505;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+    <iframe src="<?php echo base_url(); ?>http://4671808.fls.doubleclick.net/activityi;src=4671808;type=ot;cat=mainh0;ord=176981505;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
 </noscript>
 -->
 </body>

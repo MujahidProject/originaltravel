@@ -1,29 +1,38 @@
 <?php 
-
-$base_url = "http://localhost/originaltravel/"
-$title = "mujahid";
-
-
-
-
+$config = array();
+$config['base_url'] = "http://localhost/originaltravel/";
+$config['title'] = "originaltravel";
+$config['copyright'] = "by smartUpWorld | 2017";
 
 function base_url(){
-	global $base_url;
-	if(!empty($base_url)){
-		return $base_url;
+	global $config;
+	if(!empty($config['base_url'])){
+		return $config['base_url'];
 	}else{
-		$base_url= "";
-		return $base_url;
+		$config['base_url']= "";
+		return $config['base_url'];
 	}
 }
 
+
 function page_title(){
-	global $title;
-	if(!empty($title)){
-		return $title;
+	global $config;
+	if(!empty($config['title'])){
+		return $config['title'];
 	}else{
-		$title = 'Default';
-		return $title;
+		$config['title']= "Default";
+		return $config['title'];
+	}
+}
+
+
+function copyright(){
+	global $config;
+	if(!empty($config['copyright'])){
+		return $config['copyright'];
+	}else{
+		$config['title']= "Default";
+		return $config['copyright'];
 	}
 }
 
