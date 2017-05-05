@@ -11,15 +11,4 @@ function page_title(){
 }
 
 
-function copyright(){
-	global $config;
-	if(!empty($config['copyright'])){
-		return $config['copyright'];
-	}else{
-		$config['title']= "Default";
-		return $config['copyright'];
-	}
-}
-
-
 ?>

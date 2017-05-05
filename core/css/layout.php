@@ -1,3 +1,4 @@
+<?php header("Content-type: text/css; charset: UTF-8"); ?>
 @charset "UTF-8";.l-full,.l-whole {
     width: 100%
 }
@@ -915,7 +916,7 @@ body.richtext {
 }
 
 .icon--calendar-turq,.icon--calendar-wht,.icon--close,.icon--dropdown-turq,.icon--dropdown-wht,.icon--fb-blue,.icon--fb-turq,.icon--fullscreen-blue,.icon--fullscreen-turq,.icon--google-blue,.icon--google-turq,.icon--hamburger,.icon--inst-blue,.icon--inst-turq,.icon--logo-turq,.icon--logo-wht,.icon--logo-wht-otuk,.icon--map,.icon--minus-blue,.icon--minus-turq,.icon--minus-wht,.icon--ot-icon-blue,.icon--ot-icon-turq,.icon--ot-icon-wht,.icon--pin-blue,.icon--pin-turq,.icon--plus-blue,.icon--plus-turq,.icon--plus-wht,.icon--tick-blue,.icon--tick-turq,.icon--twit-blue,.icon--twit-turq,.icon--youtube-blue,.icon--youtube-turq {
-    background: url(<?php echo base_url();?>img/sprite-b6b7e7ca.svg) no-repeat
+    background: url(img/sprite-b6b7e7ca.svg) no-repeat
 }
 
 .icon--calendar-turq {
@@ -1210,24 +1211,24 @@ body.richtext {
 
 @font-face {
     font-family: BryantRegularAlt;
-    src: url(<?php echo base_url(); ?>fonts/bryantwebregularalt-webfont.eot);
-    src: url(<?php echo base_url(); ?>fonts/bryantwebregularalt-webfont.eot?#iefix) format("embedded-opentype"),url(<?php echo base_url(); ?>fonts/bryantwebregularalt-webfont.woff) format("woff");
+    src: url(<?php echo base_url();?>fonts/bryantwebregularalt-webfont.eot);
+    src: url(<?php echo base_url();?>fonts/bryantwebregularalt-webfont.eot?#iefix) format("embedded-opentype"),url(<?php echo base_url();?>fonts/bryantwebregularalt-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: BryantMedium;
-    src: url(<?php echo base_url(); ?>fonts/bryantwebmedium-webfont.eot);
-    src: url(<?php echo base_url(); ?>fonts/bryantwebmedium-webfont.eot?#iefix) format("embedded-opentype"),url(<?php echo base_url(); ?>fonts/bryantwebmedium-webfont.woff) format("woff");
+    src: url(<?php echo base_url();?>fonts/bryantwebmedium-webfont.eot);
+    src: url(<?php echo base_url();?>fonts/bryantwebmedium-webfont.eot?#iefix) format("embedded-opentype"),url(<?php echo base_url();?>fonts/bryantwebmedium-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: BryantRegular;
-    src: url(<?php echo base_url(); ?>fonts/bryantwebregular-webfont.eot);
-    src: url(<?php echo base_url(); ?>fonts/bryantwebregular-webfont.eot?#iefix) format("embedded-opentype"),url(<?php echo base_url(); ?>fonts/bryantwebregular-webfont.woff) format("woff");
+    src: url(<?php echo base_url();?>fonts/bryantwebregular-webfont.eot);
+    src: url(<?php echo base_url();?>fonts/bryantwebregular-webfont.eot?#iefix) format("embedded-opentype"),url(<?php echo base_url();?>fonts/bryantwebregular-webfont.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
@@ -1289,12 +1290,12 @@ body #admin-bar {
     position: absolute;
     top: -30px;
     right: 0;
-    background: url(<?php echo base_url();?>img/svg-sprites.svg?255) no-repeat 3px -447px;
+    background: url(img/svg-sprites.svg?255) no-repeat 3px -447px;
     cursor: pointer
 }
 
 .no-svg #simplemodal-container .simplemodal-close {
-    background-image: url(<?php echo base_url();?>img/svg-sprites.png?457)
+    background-image: url(img/svg-sprites.png?457)
 }
 
 #timbest-travel {
@@ -1313,7 +1314,7 @@ body #admin-bar {
     font-family: BryantRegular,Helvetica,Arial,sans-serif;
     margin-top: 0;
     padding-top: 85px;
-    background: url(<?php echo base_url();?>img/logomark.png?369) no-repeat top center;
+    background: url(img/logomark.png?369) no-repeat top center;
     position: relative;
     top: -36px;
     margin-bottom: -15px
@@ -1518,7 +1519,7 @@ a.button-square,button.button-square>span {
     display: inline-block;
     width: 12px;
     height: 12px;
-    background: url(<?php echo base_url();?>img/sprites.png?484) -190px -17px;
+    background: url(img/sprites.png?484) -190px -17px;
     text-indent: -9999px;
     margin-left: 8px;
     vertical-align: middle;
@@ -1581,7 +1582,7 @@ a {
     display: inline-block;
     height: 70px;
     margin: 0 30px;
-    background-image: url(<?php echo base_url();?>img/footer-logos.jpg?370)
+    background-image: url(img/footer-logos.jpg?370)
 }
 
 #footer .abta {
@@ -1612,7 +1613,7 @@ a {
 #footer .logos li.traveller_made {
     width: 156px;
     height: 32px;
-    background: url(<?php echo base_url();?>img/logos/traveller_made.png?426) no-repeat
+    background: url(img/logos/traveller_made.png?426) no-repeat
 }
 
 #footer .links {
@@ -1678,12 +1679,12 @@ a {
     display: inline-block;
     width: 34px;
     height: 34px;
-    background-image: url(<?php echo base_url();?>img/ot-social-icons.png);
+    background-image: url(img/ot-social-icons.png);
     text-indent: -9999px
 }
 
 .svg #footer .social a {
-    background-image: url(<?php echo base_url();?>img/ot-social-icons.svg)
+    background-image: url(img/ot-social-icons.svg)
 }
 
 #footer .facebook {
@@ -1744,7 +1745,7 @@ a {
     width: 38px;
     height: 38px;
     display: inline-block;
-    background: url(<?php echo base_url();?>img/sprites.png?484) no-repeat -205px -62px;
+    background: url(img/sprites.png?484) no-repeat -205px -62px;
     margin-left: 10px;
     margin-top: -10px;
     float: right
@@ -1887,7 +1888,7 @@ a {
     content: " ";
     width: 88px;
     height: 88px;
-    background: url(<?php echo base_url();?>img/svg-sprites.svg?255) no-repeat;
+    background: url(img/svg-sprites.svg?255) no-repeat;
     background-size: 320px 2400px;
     background-position: 31px -1574px;
     border: 4px solid #fff;
@@ -1900,7 +1901,7 @@ a {
 }
 
 .no-svg #home-hero .frame.launch-video:after {
-    background-image: url(<?php echo base_url();?>img/svg-sprites.png?457)
+    background-image: url(img/svg-sprites.png?457)
 }
 
 @media screen and (max-width: 590px) {
@@ -1910,7 +1911,7 @@ a {
 }
 
 #home-hero .logo {
-    background: url(<?php echo base_url();?>img/home-sprites.png?369) no-repeat 0 0;
+    background: url(img/home-sprites.png?369) no-repeat 0 0;
     display: block;
     width: 221px;
     height: 17px;
@@ -1980,7 +1981,7 @@ a {
     width: 39px;
     height: 75px;
     text-indent: -9999px;
-    background: url(<?php echo base_url();?>img/home-sprites.png?369) -39px -34px;
+    background: url(img/home-sprites.png?369) -39px -34px;
     display: none;
     position: absolute;
     top: 40%;
@@ -2039,7 +2040,7 @@ a {
     width: 38px;
     height: 38px;
     margin: 0 auto;
-    background: url(<?php echo base_url();?>img/sprites.png?484) no-repeat -132px -62px
+    background: url(img/sprites.png?484) no-repeat -132px -62px
 }
 
 #content-hero,#landing-hero {
@@ -2303,12 +2304,12 @@ a {
     content: " ";
     width: 16px;
     height: 10px;
-    background: url(<?php echo base_url();?>img/svg-sprites.svg?255) no-repeat -45px -200px;
+    background: url(img/svg-sprites.svg?255) no-repeat -45px -200px;
     margin-right: 7px
 }
 
 .no-svg .sticky-header .share-link:before {
-    background-image: url(<?php echo base_url();?>img/svg-sprites.png?457)
+    background-image: url(img/svg-sprites.png?457)
 }
 
 .share .share-popup {
@@ -2342,7 +2343,7 @@ a {
     display: inline-block;
     width: 28px;
     height: 32px;
-    background: url(<?php echo base_url();?>img/sprites.png?484);
+    background: url(img/sprites.png?484);
     margin-top: 4px;
     margin-left: 4px;
     margin-right: 4px;
@@ -2460,7 +2461,7 @@ a {
     content: " ";
     width: 14px;
     height: 14px;
-    background: url(<?php echo base_url();?>img/svg-sprites.svg?255) -50px -350px;
+    background: url(img/svg-sprites.svg?255) -50px -350px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2469,7 +2470,7 @@ a {
 }
 
 .advanced-gallery #gallery .gallery-video:after,.content .gallery-preview a.gallery-video:after,.no-touch-mobile .content .gallery-preview a:hover:after {
-    background-image: url(<?php echo base_url();?>img/svg-sprites.png?457)
+    background-image: url(img/svg-sprites.png?457)
 }
 
 .advanced-gallery #gallery .gallery-video:after,.content .gallery-preview a.gallery-video:after,.content .gallery-preview a.gallery-video:hover:after {
@@ -2515,7 +2516,7 @@ a {
     width: 957px;
     height: 638px;
     float: left;
-    background: url(<?php echo base_url();?>img/block-scroller-bg.jpg?369) no-repeat;
+    background: url(img/block-scroller-bg.jpg?369) no-repeat;
     background-size: 958px 639px
 }
 
@@ -2564,7 +2565,7 @@ a {
     font-size: 1.2em;
     text-transform: uppercase;
     line-height: 1.5;
-    background: url(<?php echo base_url();?>img/faded-line.png) 0 100% repeat-x;
+    background: url(img/faded-line.png) 0 100% repeat-x;
     padding-bottom: 9px;
     margin-bottom: 9px
 }
@@ -2671,12 +2672,12 @@ a {
     width: 31px;
     height: 31px;
     margin-right: 7px;
-    background: url(<?php echo base_url();?>img/svg-sprites-new.svg);
+    background: url(img/svg-sprites-new.svg);
     vertical-align: bottom
 }
 
 .no-svg .block-type:before {
-    background-image: url(<?php echo base_url();?>img/svg-sprites-new.png)
+    background-image: url(img/svg-sprites-new.png)
 }
 
 .block-destination:before {
@@ -2754,7 +2755,7 @@ a {
     display: inline-block;
     width: 20px;
     height: 17px;
-    background: url(<?php echo base_url();?>img/sprites.png?484) no-repeat -218px 0;
+    background: url(img/sprites.png?484) no-repeat -218px 0;
     vertical-align: middle;
     margin-right: 7px;
     margin-top: -3px
@@ -2762,7 +2763,7 @@ a {
 
 .source .icon-facebook {
     width: 9px;
-    background: url(<?php echo base_url();?>img/sprites.png?484) no-repeat -238px 0
+    background: url(img/sprites.png?484) no-repeat -238px 0
 }
 
 .block.hover .block-overlay,.no-touch-mobile .block:hover .block-overlay {
@@ -2822,13 +2823,13 @@ a {
     position: absolute;
     top: 318px;
     margin-top: -32px;
-    background: #0cc url(<?php echo base_url();?>img/arrows_64.svg) -17px 0;
+    background: #0cc url(img/arrows_64.svg) -17px 0;
     z-index: 305;
     text-indent: -9999px
 }
 
 .block-scroller .next,.block-scroller .previous,.generic-slider .next,.generic-slider .previous,.wtg-super .next,.wtg-super .previous {
-    background-image: url(<?php echo base_url();?>img/arrows_64.png)
+    background-image: url(img/arrows_64.png)
 }
 
 .block-scroller .next,.generic-slider .next,.wtg-super .next {
@@ -2942,12 +2943,12 @@ a {
     width: 20px;
     height: 20px;
     margin-right: 7px;
-    background: url(<?php echo base_url();?>img/svg-sprites.svg?255);
+    background: url(img/svg-sprites.svg?255);
     vertical-align: bottom
 }
 
 .no-svg .block-force-wide .block-type:before {
-    background-image: url(<?php echo base_url();?>img/svg-sprites.png?457)
+    background-image: url(img/svg-sprites.png?457)
 }
 
 .block-force-wide .block-destination:before {
@@ -3130,7 +3131,7 @@ a {
     top: -32px;
     position: absolute;
     margin-left: -28px;
-    background: url(<?php echo base_url();?>img/sprite-b6b7e7ca.svg) no-repeat;
+    background: url(img/sprite-b6b7e7ca.svg) no-repeat;
     background-position: 13.362068965517242% 65.21739130434783%;
     width: 31px;
     height: 40px;
@@ -3386,7 +3387,7 @@ a {
     position: absolute;
     left: 0;
     top: 0;
-    background: url(<?php echo base_url();?>img/sprite-b6b7e7ca.svg) no-repeat;
+    background: url(img/sprite-b6b7e7ca.svg) no-repeat;
     background-position: 13.362068965517242% 65.21739130434783%;
     width: 31px;
     height: 40px;
@@ -3431,7 +3432,7 @@ a {
     display: inline-block;
     width: 7px;
     height: 4px;
-    background: url(<?php echo base_url();?>img/sprites.png?484) no-repeat -236px -29px;
+    background: url(img/sprites.png?484) no-repeat -236px -29px;
     position: absolute;
     top: 7px;
     right: 6px
@@ -3630,7 +3631,7 @@ a {
     left: 141px;
     border: 6px solid #f4f4f4;
     border-radius: 50px;
-    background: url(<?php echo base_url();?>img/sprite-b6b7e7ca.svg) no-repeat;
+    background: url(img/sprite-b6b7e7ca.svg) no-repeat;
     background-position: 13.362068965517242% 65.21739130434783%;
     width: 31px;
     height: 40px;
@@ -3638,7 +3639,7 @@ a {
 }
 
 .no-svg .triple-callout .grey-halfbox .content:before {
-    background-image: url(<?php echo base_url();?>img/svg-sprites.png?457)
+    background-image: url(img/svg-sprites.png?457)
 }
 
 .triple-callout-wrap {
@@ -3751,7 +3752,7 @@ a {
     left: 50%;
     top: -29px;
     position: absolute;
-    background: url(<?php echo base_url();?>img/sprite-b6b7e7ca.svg) no-repeat;
+    background: url(img/sprite-b6b7e7ca.svg) no-repeat;
     background-position: 13.362068965517242% 65.21739130434783%;
     width: 31px;
     height: 40px;
@@ -4009,7 +4010,7 @@ a {
     display: block;
     width: 20px;
     height: 24px;
-    background: url(<?php echo base_url();?>img/sprites.png?484) no-repeat 0 -68px;
+    background: url(img/sprites.png?484) no-repeat 0 -68px;
     position: absolute;
     top: 3px;
     left: 3px
@@ -4027,11 +4028,11 @@ a {
 
 #itinerary-price .icon-world {
     width: 21px;
-    background: url(<?php echo base_url();?>img/svg-sprites.svg?255) no-repeat -5px 0
+    background: url(img/svg-sprites.svg?255) no-repeat -5px 0
 }
 
 .no-svg #itinerary-price .icon-world {
-    background-image: url(<?php echo base_url();?>img/svg-sprites.png?457)
+    background-image: url(img/svg-sprites.png?457)
 }
 
 .content-section {
@@ -4150,7 +4151,7 @@ a {
 }
 
 .no-svg #destinations-map {
-    background: url(<?php echo base_url();?>img/map.png?490) no-repeat;
+    background: url(img/map.png?490) no-repeat;
     height: 500px
 }
 
@@ -4505,7 +4506,7 @@ a {
     display: inline-block;
     width: 8px;
     height: 14px;
-    background: url(<?php echo base_url();?>img/sprites.png?484) no-repeat -64px -68px;
+    background: url(img/sprites.png?484) no-repeat -64px -68px;
     text-indent: -9999px
 }
 
@@ -4891,13 +4892,13 @@ a {
     display: block;
     width: 31px;
     height: 40px;
-    background: url(<?php echo base_url();?>img/svg-sprites.svg?255) -3px -312px;
+    background: url(img/svg-sprites.svg?255) -3px -312px;
     margin: 0 auto 10px;
     background-size: 100px
 }
 
 .no-svg .contact-banner h1:before {
-    background-image: url(<?php echo base_url();?>img/svg-sprites.png?457)
+    background-image: url(img/svg-sprites.png?457)
 }
 
 .contact-banner .intro,.contact-banner .subintro {
@@ -4930,7 +4931,7 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     padding-right: 10px;
-    background: url(<?php echo base_url();?>img/down-arrow.gif?369) no-repeat right 5px
+    background: url(img/down-arrow.gif?369) no-repeat right 5px
 }
 
 .contact-banner:after {
@@ -5105,11 +5106,11 @@ a {
     position: absolute;
     top: 5px;
     left: 0;
-    background: url(<?php echo base_url();?>img/svg-sprites.svg?255) 0 -350px
+    background: url(img/svg-sprites.svg?255) 0 -350px
 }
 
 .no-svg .contact .directions p:before {
-    background-image: url(<?php echo base_url();?>img/svg-sprites.png?457)
+    background-image: url(img/svg-sprites.png?457)
 }
 
 .contact .directions .train:before {
@@ -5180,7 +5181,7 @@ a {
 }
 
 .article-preview h3.offer span {
-    background: url(<?php echo base_url();?>img/sprites.png?485) -174px 60px;
+    background: url(img/sprites.png?485) -174px 60px;
     width: 26px;
     height: 26px;
     margin-right: 13px;
@@ -5188,7 +5189,7 @@ a {
 }
 
 .article-preview h3.offer span {
-    background: url(<?php echo base_url();?>img/sprites.png?485) -174px 60px;
+    background: url(img/sprites.png?485) -174px 60px;
     width: 26px;
     height: 26px;
     margin-right: 13px;
@@ -5256,7 +5257,7 @@ a {
     position: absolute;
     left: 0;
     top: 0;
-    background: url(<?php echo base_url();?>img/sprite-b6b7e7ca.svg) no-repeat;
+    background: url(img/sprite-b6b7e7ca.svg) no-repeat;
     background-position: 13.362068965517242% 65.21739130434783%;
     width: 31px;
     height: 40px;
@@ -5378,7 +5379,7 @@ a {
     display: inline-block;
     width: 8px;
     height: 6px;
-    background: url(<?php echo base_url();?>img/down-arrow-grey.gif?369);
+    background: url(img/down-arrow-grey.gif?369);
     position: relative;
     top: -1px;
     left: 4px
@@ -5433,7 +5434,7 @@ a {
     width: 8px;
     height: 6px;
     margin-right: 5px;
-    background: url(<?php echo base_url();?>img/down-arrow.gif?369) no-repeat;
+    background: url(img/down-arrow.gif?369) no-repeat;
     transform: rotate(-90deg);
     -ms-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -5604,7 +5605,7 @@ a {
     height: 3px;
     width: 685px;
     margin: 0 auto 60px;
-    background: url(<?php echo base_url();?>img/dotted-bg.svg?104);
+    background: url(img/dotted-bg.svg?104);
     position: relative
 }
 
@@ -5622,7 +5623,7 @@ a {
     position: absolute;
     left: 138px;
     top: 0;
-    background: url(<?php echo base_url();?>img/dotted-bg.svg?104)
+    background: url(img/dotted-bg.svg?104)
 }
 
 .how-section-1:before {
@@ -5638,7 +5639,7 @@ a {
     position: absolute;
     right: 0;
     bottom: 7px;
-    background: url(<?php echo base_url();?>img/dotted-bg.svg?104)
+    background: url(img/dotted-bg.svg?104)
 }
 
 .how-section-0 .hr:before {
@@ -5658,7 +5659,7 @@ a {
     position: absolute;
     right: 0;
     bottom: 0;
-    background: #fff url(<?php echo base_url();?>img/dotted-corner.svg?104)
+    background: #fff url(img/dotted-corner.svg?104)
 }
 
 .how-section-1 .hr:after {
@@ -5688,7 +5689,7 @@ a {
 .how-section .person-logomark {
     width: 272px;
     height: 347px;
-    background: #fff url(<?php echo base_url();?>img/large-grey-logomark.svg?101) no-repeat;
+    background: #fff url(img/large-grey-logomark.svg?101) no-repeat;
     background-size: 100% 100%;
     float: left;
     position: relative;
@@ -5899,7 +5900,7 @@ a {
     display: inline-block;
     width: 30px;
     height: 30px;
-    background: url(<?php echo base_url();?>img/blue-arrows.svg?203) no-repeat;
+    background: url(img/blue-arrows.svg?203) no-repeat;
     text-indent: -9999px
 }
 
@@ -5995,7 +5996,7 @@ a {
     position: absolute;
     height: 3px;
     width: 160px;
-    background: url(<?php echo base_url();?>img/dotted-bg.svg?104)
+    background: url(img/dotted-bg.svg?104)
 }
 
 .story-panel .hr-bottom {
@@ -6018,7 +6019,7 @@ a {
     position: absolute;
     left: 0;
     bottom: 3px;
-    background: url(<?php echo base_url();?>img/dotted-bg.svg?104)
+    background: url(img/dotted-bg.svg?104)
 }
 
 .story-panel .hr:after {
@@ -6032,7 +6033,7 @@ a {
     position: absolute;
     left: 0;
     bottom: -1px;
-    background: #f2f2f2 url(<?php echo base_url();?>img/dotted-corner.svg?104);
+    background: #f2f2f2 url(img/dotted-corner.svg?104);
     -ms-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1)
@@ -6238,7 +6239,7 @@ a {
     content: " ";
     width: 76px;
     height: 76px;
-    background: url(<?php echo base_url();?>img/svg-sprites.svg?255) no-repeat;
+    background: url(img/svg-sprites.svg?255) no-repeat;
     background-size: 256px 1920px;
     background-position: 25px -1259px;
     border: 4px solid #fff;
@@ -6345,19 +6346,19 @@ a {
 }
 
 .family-page .family-pin-1 {
-    background-image: url(<?php echo base_url();?>img/family/grey-1.png?369)
+    background-image: url(img/family/grey-1.png?369)
 }
 
 .family-page .family-pin-2 {
-    background-image: url(<?php echo base_url();?>img/family/white-1.png?369)
+    background-image: url(img/family/white-1.png?369)
 }
 
 .family-page .family-pin-3 {
-    background-image: url(<?php echo base_url();?>img/family/grey-2.png?369)
+    background-image: url(img/family/grey-2.png?369)
 }
 
 .family-page .family-pin-4 {
-    background-image: url(<?php echo base_url();?>img/family/white-2.png?369)
+    background-image: url(img/family/white-2.png?369)
 }
 
 #inner-wrapper.price-wrapper {
@@ -6477,12 +6478,12 @@ a {
     display: inline-block;
     width: 13px;
     height: 15px;
-    background: url(<?php echo base_url();?>img/tick-cross.png?369) no-repeat;
+    background: url(img/tick-cross.png?369) no-repeat;
     text-indent: -9999px
 }
 
 .svg .pricing-compare td .cross,.svg .pricing-compare td .tick {
-    background: url(<?php echo base_url();?>img/tick-cross.svg?174) no-repeat
+    background: url(img/tick-cross.svg?174) no-repeat
 }
 
 .pricing-compare td .tick,.svg .pricing-compare td .tick {
@@ -6493,7 +6494,7 @@ a {
 .pricing-compare p.question {
     color: #0cc;
     padding-left: 30px;
-    background: url(<?php echo base_url();?>img/logomark-small.png?369) no-repeat 0 3px
+    background: url(img/logomark-small.png?369) no-repeat 0 3px
 }
 
 .pricing-compare .answer p {
@@ -6598,7 +6599,7 @@ a {
 }
 
 #cookie_policy_banner #cookie_policy_banner_close {
-    background: url(<?php echo base_url();?>img/cookie-grey.gif?369) no-repeat;
+    background: url(img/cookie-grey.gif?369) no-repeat;
     height: 26px;
     width: 26px
 }
@@ -6738,7 +6739,7 @@ p.startagain {
 
 p.startagain a {
     color: #0cc;
-    background: url(<?php echo base_url();?>img/icon-restart.png?415) no-repeat 100% 4px;
+    background: url(img/icon-restart.png?415) no-repeat 100% 4px;
     padding-right: 22px;
     white-space: nowrap
 }
@@ -9967,7 +9968,7 @@ div.enquire-now-block a.button {
     display: inline-block;
     width: 26px;
     height: 26px;
-    background: url(<?php echo base_url();?>img/svg-sprites.svg) 0 0 no-repeat;
+    background: url(img/svg-sprites.svg) 0 0 no-repeat;
     vertical-align: middle;
     margin-right: 10px
 }
@@ -10137,7 +10138,7 @@ div.enquire-now-block a.button {
 .jumper-nav a:nth-child(1)::before {
     content: "";
     display: inline-block;
-    background: url(<?php echo base_url();?>img/svg-sprites-new.svg) no-repeat -50px -250px;
+    background: url(img/svg-sprites-new.svg) no-repeat -50px -250px;
     height: 20px;
     width: 20px;
     vertical-align: middle;
@@ -10151,7 +10152,7 @@ div.enquire-now-block a.button {
 .jumper-nav a:nth-child(2)::after {
     content: "";
     display: inline-block;
-    background: url(<?php echo base_url();?>img/svg-sprites-new.svg) no-repeat -50px -210px;
+    background: url(img/svg-sprites-new.svg) no-repeat -50px -210px;
     height: 20px;
     width: 20px;
     vertical-align: middle;
@@ -10159,7 +10160,7 @@ div.enquire-now-block a.button {
 }
 
 .no-svg .jumper-nav a:nth-child(1)::before,.no-svg .jumper-nav a:nth-child(2)::after {
-    background-image: url(<?php echo base_url();?>img/svg-sprites-new.png)
+    background-image: url(img/svg-sprites-new.png)
 }
 
 .global-testimonial {
@@ -10238,13 +10239,13 @@ div.enquire-now-block a.button {
     float: left;
     width: 34px;
     height: 34px;
-    background-image: url(<?php echo base_url();?>img/ot-social-icons.png);
+    background-image: url(img/ot-social-icons.png);
     padding: 0;
     margin: 0 0 0 5px
 }
 
 .svg .share-prompt__links .at300b,.svg .share-prompt__links a {
-    background-image: url(<?php echo base_url();?>img/ot-social-icons.svg)
+    background-image: url(img/ot-social-icons.svg)
 }
 
 .addthis_toolbox a.at300b,.addthis_toolbox a.at300m {
@@ -10302,12 +10303,12 @@ div.enquire-now-block a.button {
 
 .share-prompt__links .share-prompt__links__link--email {
     width: 33px;
-    background-image: url(<?php echo base_url();?>img/svg-sprites-new.png?300);
+    background-image: url(img/svg-sprites-new.png?300);
     background-position: -4px -327px
 }
 
 .svg .share-prompt__links .share-prompt__links__link--email {
-    background-image: url(<?php echo base_url();?>img/svg-sprites-new.svg?300)
+    background-image: url(img/svg-sprites-new.svg?300)
 }
 
 @media screen and (max-width: 766px) {
@@ -10384,13 +10385,13 @@ div.enquire-now-block a.button {
     top: 15px;
     width: 20px;
     height: 20px;
-    background: url(<?php echo base_url();?>img/svg-sprites-new.svg) no-repeat -51px -333px;
+    background: url(img/svg-sprites-new.svg) no-repeat -51px -333px;
     cursor: pointer;
     z-index: 101
 }
 
 .no-svg #email-share-modal .modalCloseImg {
-    background-image: url(<?php echo base_url();?>img/svg-sprites-new.png)
+    background-image: url(img/svg-sprites-new.png)
 }
 
 #email-share-modal h2 {
@@ -10401,7 +10402,7 @@ div.enquire-now-block a.button {
     font-family: BryantRegular,sans-serif;
     font-size: 35px;
     text-align: center;
-    background: url(<?php echo base_url();?>img/logomark.png) no-repeat center top;
+    background: url(img/logomark.png) no-repeat center top;
     padding-top: 80px;
     z-index: 100
 }
@@ -11496,7 +11497,7 @@ div.enquire-now-block a.button {
     top: -8px;
     left: 0;
     display: inline-block;
-    background: url(<?php echo base_url();?>img/w3w_logo1.png) no-repeat
+    background: url(img/w3w_logo1.png) no-repeat
 }
 
 .offers #inner-wrapper .block-dropdown {
@@ -11925,7 +11926,7 @@ div.enquire-now-block a.button {
     border: 1px solid #0cc;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: url(<?php echo base_url();?>img/sprite-b6b7e7ca.svg) no-repeat;
+    background: url(img/sprite-b6b7e7ca.svg) no-repeat;
     background-position: 91.37254901960785% 66.82926829268293%;
     width: 8px;
     height: 19px;
@@ -12004,7 +12005,7 @@ div.enquire-now-block a.button {
     content: " ";
     display: block;
     margin: 0 auto 10px;
-    background: url(<?php echo base_url();?>img/sprite-b6b7e7ca.svg) no-repeat;
+    background: url(img/sprite-b6b7e7ca.svg) no-repeat;
     background-position: 26.724137931034484% 65.21739130434783%;
     width: 31px;
     height: 40px;
@@ -12156,7 +12157,7 @@ div.enquire-now-block a.button {
     left: 50%;
     top: -29px;
     position: absolute;
-    background: url(<?php echo base_url();?>img/sprite-b6b7e7ca.svg) no-repeat;
+    background: url(img/sprite-b6b7e7ca.svg) no-repeat;
     background-position: 13.362068965517242% 65.21739130434783%;
     width: 31px;
     height: 40px;
@@ -12291,7 +12292,7 @@ div.enquire-now-block a.button {
     position: absolute;
     right: 0;
     bottom: 0;
-    background-image: url(<?php echo base_url();?>img/svg-symbols.svg#fullscreen-turq--icon);
+    background-image: url(img/svg-symbols.svg#fullscreen-turq--icon);
     text-indent: -9999px
 }
 
@@ -12325,7 +12326,7 @@ div.enquire-now-block a.button {
     display: block;
     width: 12px;
     height: 12px;
-    background: url(<?php echo base_url();?>img/sprites.png?484) no-repeat -236px -17px;
+    background: url(img/sprites.png?484) no-repeat -236px -17px;
     text-indent: -99999px
 }
 
@@ -12477,7 +12478,7 @@ div.enquire-now-block a.button {
         right: 30px;
         top: 11px;
         height: 30px;
-        background: url(<?php echo base_url();?>img/blue-arrows.svg?203) no-repeat;
+        background: url(img/blue-arrows.svg?203) no-repeat;
         -webkit-transform: rotate(-90deg);
         -ms-transform: rotate(-90deg);
         transform: rotate(-90deg)
@@ -12589,7 +12590,7 @@ div.enquire-now-block a.button {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(<?php echo base_url();?>img/svg-sprites.svg?255) no-repeat -40px -50px
+    background: url(img/svg-sprites.svg?255) no-repeat -40px -50px
 }
 
 .key-facts ul {
@@ -12626,7 +12627,7 @@ div.enquire-now-block a.button {
 }
 
 .no-svg .key-facts .fact:before {
-    background-image: url(<?php echo base_url();?>img/svg-sprites.png?457)
+    background-image: url(img/svg-sprites.png?457)
 }
 
 .key-facts .fact--weather:before {
@@ -12662,17 +12663,17 @@ div.enquire-now-block a.button {
 }
 
 .key-facts .fact--calendar:before {
-    background: url(<?php echo base_url();?>img/sprites.png?484) no-repeat 0 -68px;
+    background: url(img/sprites.png?484) no-repeat 0 -68px;
     width: 20px;
     left: 8px
 }
 
 .key-facts .fact--currency:before,.key-facts .fact--food:before,.key-facts .fact--language:before,.key-facts .fact--months:before,.key-facts .fact--pack:before,.key-facts .fact--religion:before,.key-facts .fact--visa:before {
-    background-image: url(<?php echo base_url();?>img/svg-sprites-new.svg)
+    background-image: url(img/svg-sprites-new.svg)
 }
 
 .no-svg .key-facts .fact--currency:before,.no-svg .key-facts .fact--food:before,.no-svg .key-facts .fact--language:before,.no-svg .key-facts .fact--months:before,.no-svg .key-facts .fact--pack:before,.no-svg .key-facts .fact--religion:before,.no-svg .key-facts .fact--visa:before {
-    background-image: url(<?php echo base_url();?>img/svg-sprites-new.png)
+    background-image: url(img/svg-sprites-new.png)
 }
 
 .key-facts .fact--language:before {
@@ -12756,19 +12757,19 @@ div.enquire-now-block a.button {
     height: 39px;
     min-width: 220px;
     margin: 1px 0 0 0;
-    background: url(<?php echo base_url();?>img/logo.png?369) no-repeat 0 0
+    background: url(img/logo.png?369) no-repeat 0 0
 }
 
 .svg .navigation__header .logo {
-    background-image: url(<?php echo base_url();?>img/logo.svg?85)
+    background-image: url(img/logo.svg?85)
 }
 
 .navigation__header .diving-logo {
-    background: url(<?php echo base_url();?>img/diving-logo.png) no-repeat 0 0
+    background: url(img/diving-logo.png) no-repeat 0 0
 }
 
 .svg .navigation__header .diving-logo {
-    background-image: url(<?php echo base_url();?>img/diving-logo.svg)
+    background-image: url(img/diving-logo.svg)
 }
 
 .navigation__header .center {
@@ -12806,7 +12807,7 @@ div.enquire-now-block a.button {
     padding-bottom: 7px;
     text-align: center;
     font-size: .8em;
-    background: url(<?php echo base_url();?>img/sprites.png?484) -160px 0
+    background: url(img/sprites.png?484) -160px 0
 }
 
 .navigation__header .right-anchor a {
@@ -12848,7 +12849,7 @@ div.enquire-now-block a.button {
 .navigation__header #explore {
     float: left;
     padding-right: 13px;
-    background: url(<?php echo base_url();?>img/down-arrow.gif?369) no-repeat right 5px;
+    background: url(img/down-arrow.gif?369) no-repeat right 5px;
     margin-right: 0
 }
 
@@ -12888,7 +12889,7 @@ div.enquire-now-block a.button {
     display: block;
     width: 14px;
     height: 17px;
-    background: url(<?php echo base_url();?>img/sprites.png?484) no-repeat -185px 0;
+    background: url(img/sprites.png?484) no-repeat -185px 0;
     position: absolute;
     top: 8px;
     right: 14px;
@@ -12947,7 +12948,7 @@ div.enquire-now-block a.button {
     display: inline-block;
     width: 17px;
     height: 17px;
-    background: url(<?php echo base_url();?>img/svg-sprites.svg?255);
+    background: url(img/svg-sprites.svg?255);
     vertical-align: top;
     margin-right: 6px;
     background-size: 62px 464px
@@ -13013,7 +13014,7 @@ div.enquire-now-block a.button {
     content: " ";
     width: 20px;
     height: 24px;
-    background: url(<?php echo base_url();?>img/sprites.png?484) -72px -32px;
+    background: url(img/sprites.png?484) -72px -32px;
     margin-left: 5px;
     margin-right: 15px
 }
@@ -13234,7 +13235,7 @@ div.enquire-now-block a.button {
     height: 34px;
     opacity: .5;
     text-indent: -999px;
-    background-image: url(<?php echo base_url();?>img/ot-social-icons.png);
+    background-image: url(img/ot-social-icons.png);
     background-position: 0 -34px;
     margin-left: 5px;
     -webkit-transition: opacity .2s ease-in!important;
@@ -13243,7 +13244,7 @@ div.enquire-now-block a.button {
 }
 
 .svg .navigation-popover-footer .social a {
-    background-image: url(<?php echo base_url();?>img/ot-social-icons.svg)
+    background-image: url(img/ot-social-icons.svg)
 }
 
 .navigation-popover-footer .social a:hover {
@@ -13380,7 +13381,7 @@ div.enquire-now-block a.button {
     content: "";
     width: 8px;
     height: 6px;
-    background: url(<?php echo base_url();?>img/sprites.png) no-repeat -251px -29px;
+    background: url(img/sprites.png) no-repeat -251px -29px;
     position: absolute;
     right: 0;
     top: 3px
@@ -13413,7 +13414,7 @@ div.enquire-now-block a.button {
     position: absolute;
     width: 25px;
     height: 25px;
-    background: url(<?php echo base_url();?>img/sprites.png) no-repeat;
+    background: url(img/sprites.png) no-repeat;
     left: 0;
     top: 9px
 }
@@ -13852,7 +13853,7 @@ div.enquire-now-block a.button {
 .navigation__popover-center .navigation__map .worlds {
     height: 60px;
     width: 60px;
-    background-image: url(<?php echo base_url();?>img/worlds.png);
+    background-image: url(img/worlds.png);
     background-position: 0,0;
     background-size: 120px;
     margin: 0 auto
@@ -13974,7 +13975,7 @@ div.enquire-now-block a.button {
     text-indent: -9999px;
     line-height: 9999px;
     overflow: hidden;
-    background: url(<?php echo base_url();?>img/arrows_64.png);
+    background: url(img/arrows_64.png);
     z-index: 305;
     text-indent: -9999px
 }
@@ -14185,7 +14186,7 @@ div.enquire-now-block a.button {
     }
 
     .navigation__header #explore {
-        background: url(<?php echo base_url();?>img/sprites.png) -199px 0;
+        background: url(img/sprites.png) -199px 0;
         text-indent: -9999px;
         position: absolute;
         right: 20px;
@@ -14437,7 +14438,7 @@ div.enquire-now-block a.button {
 .contact-telephone:before {
     content: " ";
     display: inline-block;
-    background: url(<?php echo base_url();?>img/sprites.png) -248px 0;
+    background: url(img/sprites.png) -248px 0;
     height: 24px;
     width: 24px;
     margin-left: 3px;

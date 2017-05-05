@@ -112,7 +112,7 @@ covered</li>
                     <ul class="feefo__results">
                         <li class="feefo-results__logo">
                             <a target="_blank" href="http://ww2.feefo.com/en-us/reviews/httpwww-originaltravel-co-uk#?timeFrame=ALL&sort=newest">
-                                <img src="img/feefo-logo.png" width="160" />
+                                <img src="<?php echo base_url(); ?>img/feefo-logo.png" width="160" />
                             </a>
                         </li>
                         <li>
@@ -830,4 +830,3 @@ interested, please send your CV and covering letter to <a href=
         </div>
 
     </div>
- 
