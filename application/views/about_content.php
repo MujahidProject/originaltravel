@@ -773,7 +773,7 @@ expertise.</p>
             <h2 class="branded">Interested in working with us?</h2>
             <div class="cf">
                 <div class="halfcol left">
-                                            <img src="https://s3-eu-west-1.amazonaws.com/originaltravel.assets.d3r.com/images/about/77395-608.jpg" width="469" height="320" class="responsive-image" />                                    </div>
+                    <img src="<?php echo base_url();?>img/77395-608.jpg" width="469" height="320" class="responsive-image" />                                    </div>
                 <div class="halfcol right">
                     <div class="richtext">
                         <h4></h4>
